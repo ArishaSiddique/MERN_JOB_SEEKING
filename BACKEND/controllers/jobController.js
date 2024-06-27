@@ -124,7 +124,7 @@ export const getAllJobs = catchAsyncErrors(async (req, res, next) => {
     });
   });
   
-  /*
+  
   export const getSingleJob = catchAsyncErrors(async (req, res, next) => {
     const { id } = req.params;
     try {
@@ -140,4 +140,4 @@ export const getAllJobs = catchAsyncErrors(async (req, res, next) => {
       return next(new ErrorHandler(`Invalid ID / CastError`, 404));
     }
   });
-  */
+  
